@@ -1,0 +1,111 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+@import url('https://fonts.cdnfonts.com/css/verdana');
+
+:root{
+    --bg-color: #FECDD3;
+    --box-color: #F43F5E;
+    --text-color: #FB7185;
+    --score-color: #FFE4E6;
+}
+body {
+    margin: 0;
+    background: var(--bg-color)
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container h3{
+    color: var(--text-color);
+    font-family: 'Verdana', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    text-align: center;                        
+}
+
+.home-score{
+    background: var(--box-color);
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.home-score h2{
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 126.67px;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: var(--score-color);                                              
+}
+
+.home-button{
+    margin:10px 55px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+} 
+
+.home-button button{
+    margin: 5px;
+    border: 2px solid var(--box-color);
+    background: transparent;
+    border-radius: 5px;
+    color: var(--box-color);
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    line-height: 27.81px;
+    text-align: center;
+}
+
+.guest-score{
+    background: var(--box-color);
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.guest-score h2{
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 126.67px;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: var(--score-color);                                              
+}
+
+.guest-button{
+    margin:10px 55px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+} 
+
+.guest-button button{
+    margin: 5px;
+    border: 2px solid var(--box-color);
+    background: transparent;
+    border-radius: 5px;
+    color: var(--box-color);
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    line-height: 27.81px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 100px;
+    color: var(--text-color);
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--box-color);
+}
